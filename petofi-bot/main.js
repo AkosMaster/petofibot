@@ -3,10 +3,6 @@ function arraysEqual(a, b) {
   if (a == null || b == null) return false;
   if (a.length != b.length) return false;
 
-  // If you don't care about the order of the elements inside
-  // the array, you should sort both arrays here.
-  // Please note that calling sort on an array will modify that array.
-  // you might want to clone your array first.
 
   for (var i = 0; i < a.length; ++i) {
     if (a[i] !== b[i]) return false;
@@ -15,8 +11,8 @@ function arraysEqual(a, b) {
 }
 
 var items=[];
-var abc1=["b","c","d","f","g","h","j","k","l","m","n","p","q","r","s","t","v","w","x","y","z", " ", ",", "!", "?", ".","\\n", ";","-","'",":","(",")","„","–","\”"]
-var abc2=["a","á","e","é","o","ó","ü","û","ö","õ","i","í"]
+var abc1=["b","c","d","f","g","h","j","k","l","m","n","p","q","r","s","t","v","w","x","y","z", " ", ",", "!", "?", ".","\\n", ";","-","'",":","(",")","â€ž","â€“","\â€"]
+var abc2=["a","Ã¡","e","Ã©","o","Ã³","Ã¼","Ã»","Ã¶","Ãµ","i","Ã­"]
 var fs = require('fs');
 
 function readLines(input, func) {
