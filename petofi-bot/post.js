@@ -6,10 +6,10 @@ data = data.replace(/(?:\r\n|\r|\n)/g, '\n\n');
 
 const r = new snoowrap({
   userAgent: 'RobotPetofi',
-  clientId: 'XGBuj5xzVZxjAQ',
-  clientSecret: 'aAMZIhtWpvd6FbxLXmhhZImBJTk',
-username: 'PetofiBot',
-  password: 'Xaxthuyd'
+  clientId: '*****',
+  clientSecret: '*****',
+  username: '*****',
+  password: '*****'
 });
 
 r.getSubreddit('RobotPetofi')
